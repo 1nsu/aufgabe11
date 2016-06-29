@@ -14,7 +14,7 @@ public class Assignment11Test {
 		Assignment11.binSearch(null, 0);
 		Assignment11.binSearchIter(null, 0);
 		
-		// search for every value that we look for in the test array
+		// search for every value that we look for in the test array via the different search methods
 		for (int i = 0; i < lookingFor.length; i++) {
 			System.out.println("Searching for value (" + lookingFor[i] + ")");
 			if (Assignment11.linSearch(intArrayTest, lookingFor[i]) >= 0) {
